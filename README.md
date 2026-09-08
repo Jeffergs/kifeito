@@ -7,6 +7,7 @@ O projeto utiliza uma arquitetura distribuída baseada em **microsserviços**, c
 O usuário pode criar e gerenciar suas próprias tarefas, acompanhar seu progresso por meio de um dashboard e receber lembretes por e-mail relacionados às tarefas agendadas.
 
 ---
+<a id="indice"></a>
 
 ## 📋 Índice
 

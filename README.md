@@ -15,19 +15,20 @@ O usuário pode criar e gerenciar suas próprias tarefas, acompanhar seu progres
 2. [🎯 Objetivo](#objetivo)
 3. [✨ Principais funcionalidades](#principais-funcionalidades)
 4. [🏗️ Arquitetura](#arquitetura)
-5. [🔄 Fluxo da aplicação](#fluxo-da-aplicação)
-6. [🧩 Microsserviços](#microsserviços)
-7. [📡 Comunicação](#comunicação)
+5. [🔄 Fluxo da aplicação](#fluxo-da-aplicacao)
+6. [🧩 Microsserviços](#microsservicos)
+7. [📡 Comunicação](#comunicacao)
 8. [🛠️ Tecnologias](#tecnologias)
-9. [📚 Repositórios](#repositórios)
-10. [📖 Documentação](#documentação)
-11. [▶️ Execução](#execução)
+9. [📚 Repositórios](#repositorios)
+10. [📖 Documentação](#documentacao)
+11. [▶️ Execução](#execucao)
 12. [📦 Escopo da versão 1](#escopo-da-versao-1)
-13. [🧭 Princípios arquiteturais](#princípios-arquiteturais)
-14. [📄 Licença](#licença)
+13. [🧭 Princípios arquiteturais](#principios-arquiteturais)
+14. [📄 Licença](#licenca)
 
 ---
 
+<a id="sobre-o-projeto"></a>
 # 📌 Sobre o projeto
 
 O Kifeito é um **gerenciador pessoal de tarefas**, no qual cada usuário possui e gerencia exclusivamente suas próprias tarefas.
@@ -50,6 +51,7 @@ Cada componente possui uma responsabilidade específica e pode evoluir de forma 
 
 ---
 
+<a id="objetivo"></a>
 # 🎯 Objetivo
 
 O objetivo do Kifeito é fornecer uma aplicação simples para gerenciamento pessoal de tarefas, aplicando conceitos de engenharia de software e arquitetura distribuída.
@@ -72,6 +74,7 @@ O projeto busca demonstrar:
 
 ---
 
+<a id="principais-funcionalidades"></a>
 # ✨ Principais funcionalidades
 
 ## Autenticação
@@ -124,6 +127,7 @@ O processamento das notificações ocorre de forma assíncrona utilizando Rabbit
 
 ---
 
+<a id="arquitetura"></a>
 # 🏗️ Arquitetura
 
 O Kifeito utiliza uma arquitetura baseada em microsserviços.
@@ -172,6 +176,7 @@ O frontend acessa somente o BFF. Os serviços internos não são expostos direta
 
 ---
 
+<a id="fluxo-da-aplicacao"></a>
 # 🔄 Fluxo da aplicação
 
 ## Requisições do usuário
@@ -234,6 +239,7 @@ O serviço Notification mantém o estado do lembrete e realiza o envio no moment
 
 ---
 
+<a id="microsservicos"></a>
 # 🧩 Microsserviços
 
 ## Frontend
@@ -371,6 +377,7 @@ Principais tecnologias:
 
 ---
 
+<a id="comunicacao"></a>
 # 📡 Comunicação
 
 O Kifeito utiliza dois modelos principais de comunicação.
@@ -426,6 +433,7 @@ O serviço Notification reage aos eventos e mantém apenas o estado pertencente 
 
 ---
 
+<a id="tecnologias"></a>
 # 🛠️ Tecnologias
 
 | Tecnologia | Utilização |
@@ -451,6 +459,7 @@ O serviço Notification reage aos eventos e mantém apenas o estado pertencente 
 
 ---
 
+<a id="repositorios"></a>
 # 📚 Repositórios
 
 O projeto é dividido em repositórios independentes.
@@ -499,6 +508,7 @@ Documentação: `kifeito-notification/README.md`
 
 ---
 
+<a id="documentacao"></a>
 # 📖 Documentação
 
 A documentação técnica está distribuída entre os repositórios do projeto.
@@ -522,6 +532,7 @@ Para compreender uma parte específica do sistema, consulte o README do respecti
 
 ---
 
+<a id="execucao"></a>
 # ▶️ Execução
 
 O projeto foi estruturado para permitir a execução dos componentes em containers.
@@ -547,7 +558,7 @@ Essa abordagem permite desenvolver e demonstrar uma arquitetura de microsserviç
 ⬆️ [Voltar ao índice](#-índice)
 
 ---
-
+<a id="escopo-da-versao-1"></a>
 # 📦 Escopo da versão 1
 
 ## Usuários
@@ -597,7 +608,7 @@ Essa abordagem permite desenvolver e demonstrar uma arquitetura de microsserviç
 ⬆️ [Voltar ao índice](#-índice)
 
 ---
-
+<a id="versao-2"></a>
 # 🚀 Versão 2
 
 Possíveis evoluções:
@@ -622,7 +633,7 @@ Possíveis evoluções:
 ⬆️ [Voltar ao índice](#-índice)
 
 ---
-
+<a id="principios-arquiteturais"></a>
 # 🧭 Princípios arquiteturais
 
 O desenvolvimento do Kifeito segue princípios para orientar as decisões técnicas.
@@ -682,6 +693,7 @@ Novas tecnologias devem ser introduzidas somente quando existir uma necessidade 
 
 ---
 
+<a id="licenca"></a>
 # 📄 Licença
 
 O Kifeito está sendo desenvolvido inicialmente para uso próprio e para um grupo limitado de usuários.

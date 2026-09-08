@@ -23,8 +23,9 @@ O usuário pode criar e gerenciar suas próprias tarefas, acompanhar seu progres
 10. [📖 Documentação](#documentacao)
 11. [▶️ Execução](#execucao)
 12. [📦 Escopo da versão 1](#escopo-da-versao-1)
-13. [🧭 Princípios arquiteturais](#principios-arquiteturais)
-14. [📄 Licença](#licenca)
+13. [📦 Versão 2](#versao-1)
+14. [🧭 Princípios arquiteturais](#principios-arquiteturais)
+15. [📄 Licença](#licenca)
 
 ---
 
